@@ -10,7 +10,9 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "android": "bash ./scripts/android.sh",
-    "ios": "bash ./scripts/ios.sh"
+    "ios": "bash ./scripts/ios.sh",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
   },
   "dependencies": {
     "@capacitor/android": "7.4.4",
@@ -30,6 +32,7 @@
     "vue-router": "^4.6.3"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^6.1.0",
     "@capacitor/cli": "7.4.4"
   }
 }
