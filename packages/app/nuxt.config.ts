@@ -8,22 +8,21 @@ export default defineNuxtConfig({
   ssr: false,
   vite: {
     plugins: [
-      // @ts-ignore
-      tailwindcss()
+      tailwindcss(),
     ],
   },
   css: [
     '~/assets/css/style.css',
-    '~/assets/css/ionic.css'
+    '~/assets/css/ionic.css',
   ],
   ionic: {
     css: {
       utilities: true,
-    }
+    },
   },
   eslint: {
     config: {
-      standalone: false
-    }
-  }
+      standalone: false,
+    },
+  },
 })
