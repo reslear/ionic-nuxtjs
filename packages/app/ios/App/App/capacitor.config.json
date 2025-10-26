@@ -1,0 +1,11 @@
+{
+	"appId": "com.app",
+	"appName": "app",
+	"webDir": "dist",
+	"packageClassList": [
+		"AppPlugin",
+		"HapticsPlugin",
+		"KeyboardPlugin",
+		"StatusBarPlugin"
+	]
+}
