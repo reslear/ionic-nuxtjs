@@ -1,1 +1,6 @@
-@import "tailwindcss";
+/* https://tailwindcss.com/docs/preflight#disabling-preflight */
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+/* https://github.com/ionic-team/ionic-framework/issues/30369 */
+/* @import "tailwindcss/preflight.css" layer(base);*/
+@import "tailwindcss/utilities.css" layer(utilities);

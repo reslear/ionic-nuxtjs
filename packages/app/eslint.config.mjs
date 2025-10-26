@@ -7,8 +7,12 @@ export default withNuxt(
   antfu({
     typescript: true,
   }),
-
   {
     ignores: ['.output', 'ios', 'android', 'dist'],
+  },
+  {
+    rules: {
+      'vue/no-deprecated-slot-attribute': 'off',
+    },
   },
 )

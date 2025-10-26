@@ -1,11 +1,14 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "app",
-  "webDir": "dist",
-  "packageClassList": [
-    "AppPlugin",
-    "HapticsPlugin",
-    "KeyboardPlugin",
-    "StatusBarPlugin"
-  ]
+	"appId": "io.ionic.starter",
+	"appName": "app",
+	"webDir": "dist",
+	"packageClassList": [
+		"AppPlugin",
+		"HapticsPlugin",
+		"KeyboardPlugin",
+		"StatusBarPlugin"
+	],
+	"server": {
+		"url": "http://192.168.1.93:3000"
+	}
 }
