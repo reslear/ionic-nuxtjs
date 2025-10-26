@@ -1,13 +1,15 @@
-# Clean monorepo Template with Vue, Ionic, and Capacitor
+# Clean monorepo Template with Vue, Ionic, and Capacitor on Nuxt 4
 
 <center> 
 <img src="assets/cover.png" alt="android and ios emulator">
 </center>
 
+- Nuxt 4
 - Ionic 8
-- Vue 3.4
-- Capacitor 6
-- Typescript 5.5
+- Vue 3.5
+- Capacitor 7
+- Typescript 5.7
+- Tailwind CSS 4
 
 ## Installation
 
@@ -41,6 +43,8 @@ pnpm build
 - [vue docs](https://v3.vuejs.org/guide/introduction.html)
 - [ionic docs](https://ionicframework.com/docs/components)
 - [capacitor docs](https://capacitorjs.com/docs)
+- [nuxt docs](https://nuxt.com/docs/getting-started/introduction)
+- [nuxt ionic](https://ionic.nuxtjs.org/)
 
 ## Recommended IDE Setup
 
@@ -48,4 +52,4 @@ pnpm build
 
 ## License
 
-[MIT](./LICENSE) License © 2021-Present [reslear](https://github.com/reslear)
+[MIT](./LICENSE) License © 2025-Present [reslear](https://github.com/reslear)
